@@ -1,6 +1,5 @@
 main {
   background-color: #121214;
-  padding-top: 2.5rem;
   background: rgba(13, 41, 49, 1);
   background: -webkit-radial-gradient(
     center,
@@ -96,6 +95,7 @@ main {
 
 .check i {
   color: #fbe93f;
+  margin-right: 0.6rem;
 }
 
 img {
