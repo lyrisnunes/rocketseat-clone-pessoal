@@ -1,0 +1,148 @@
+main {
+  background-color: #121214;
+  padding-top: 2.5rem;
+  background: rgba(13, 41, 49, 1);
+  background: -webkit-radial-gradient(
+    center,
+    rgba(13, 41, 49, 1),
+    rgba(1, 1, 1, 1)
+  );
+  background: -moz-radial-gradient(
+    center,
+    rgba(13, 41, 49, 1),
+    rgba(1, 1, 1, 1)
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(13, 41, 49, 1),
+    rgba(1, 1, 1, 1)
+  );
+}
+
+.main {
+  color: #fff;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 850px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.text {
+  max-width: 511px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+
+.text h1 {
+  line-height: 3.7rem;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.text h1 span {
+  color: #3bbee5;
+}
+
+.text p {
+  line-height: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.btn button {
+  height: 3.5rem;
+  background-color: #3bbee5;
+  color: #121214;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.btn button i {
+  padding-left: 0.5rem;
+}
+
+.btn span i {
+  color: #3bbee5;
+  padding-right: 0.5rem;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.check span {
+  padding-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.check i {
+  color: #fbe93f;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .main {
+    grid-template-columns: 1fr;
+    background: #1c2c37;
+    background: -webkit-radial-gradient(top right, #1c2c37, #010101);
+    background: -moz-radial-gradient(top right, #1c2c37, #010101);
+    background: radial-gradient(to bottom left, #1c2c37, #010101);
+  }
+
+  .text h1 {
+    line-height: 3rem;
+    font-size: 2.3rem;
+  }
+
+  .student {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: center;
+    max-width: 700px;
+  }
+
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .btn button {
+    width: 100%;
+  }
+
+  .check {
+    text-align: justify;
+    text-align: center;
+  }
+
+  .text p {
+   font-size: .9rem;
+ }
+}
